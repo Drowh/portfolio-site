@@ -4,6 +4,20 @@
 }
 
 
+@media (max-width: 488px) {
+    .about-me {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 488px) {
+    .portfolio .items .item {
+            display: flex;
+            flex-direction: column;
+        }
+}
+
 body {
     margin: 0;
     background: url('./img/cyberpunk_8198.jpg');
@@ -60,6 +74,11 @@ h3 {
     gap: 20px;
 }
 
+.photo-ava {
+    max-width: 400px;
+    width: 90%;
+}
+
 .short-description {
     display: flex;
     flex-direction: column;
@@ -73,14 +92,14 @@ h3 {
     font-size: 68px;
     font-weight: 800;
     line-height: 75px;
-    
+
 }
 
 .description {
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
-    
+
 }
 
 .write-action {
@@ -119,7 +138,7 @@ h3 {
 
     padding: 8px 14px;
     display: flex;
-    gap:7px;
+    gap: 7px;
     align-items: center;
     color: #e9b0ff;
     text-decoration: none;
@@ -262,10 +281,12 @@ h3 {
     display: flex;
     gap: 8px;
     align-items: center;
-    background-color: #87d3ff;;
+    background-color: #87d3ff;
+    ;
 }
 
 .show-project .see {
     width: 100%;
 
 }
+
